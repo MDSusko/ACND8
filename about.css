@@ -1,0 +1,184 @@
+@import url("reset.css");
+
+html {
+	background-color: black;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: .85em;
+    color: white;
+}
+
+h1 { 
+font-family: 'Noto Sans Display', sans-serif;
+font-size: 2.5em;
+padding: 5px;
+margin-left: 10px;
+}
+
+h2 { 
+font-family: 'Open Sans', sans-serif;
+font-size: 1.85em;
+}
+
+h3 { 
+font-family: 'Open Sans', sans-serif;
+font-size: 1.25em; 
+}
+
+p {
+    padding-left: 15px;
+}
+
+/* Styling for Logo */
+.logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 25%;
+}
+
+.headshot {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+/* Styling for home page elements */
+
+.venues {
+	list-style-type: disc;
+	padding: 30px;
+	line-height: 1.5;
+	text-align: left;
+}
+
+.line {
+	align-content: center;
+	width: 75%;
+}
+
+/* Styling for Nav Bar */
+ul.topnav li {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.2em;
+	float: left;
+	width: 12%;
+	}
+	
+	ul.topnav li a {
+	display: block;
+	color: white;
+	text-align: center;
+	font-size: 1em;
+	padding: 14px 50px;
+	text-decoration: none;
+	}
+	
+	ul.topnav2 li a {
+	display: block;
+	color: white;
+	text-align: center;
+	font-size: 1em;
+	padding: 14px 10px;
+	text-decoration: none;
+	}
+	
+	/* Change link color to lighter black (#04040a) on hover */
+	ul.topnav li a:hover {
+	background-color: #04040a;
+	}
+	
+	ul.topnav a.active {
+	border-bottom: 2px solid white;
+	
+	}
+
+ul.topnav2 li a {
+	display: block;
+	color: white;
+	text-align: center;
+	font-size: 1em;
+	padding: 14px 10px;
+	text-decoration: none;
+	}
+
+
+/* Link Styling */
+a:link {
+  color: #00ADFA;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #4202FA;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #5661FA;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+	
+
+/* Box Layout */
+#wrapper {
+    width: 100%;
+    min-width: 1000px;
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
+#header {
+    float: left;
+    height: 50%;
+    width: 100%;
+    background: black;
+}
+
+#navigation {
+    float: left;
+    height: 40px;
+    width: 100%;
+    background: black;
+	padding-bottom: 5px;
+}
+
+#contentliquid {
+    float: left;
+    width: 100%;
+}
+
+#content {
+    background: black;
+    margin-left: 240px;
+	height: auto;
+}
+
+#leftcolumn {
+    background:  black;
+    width: 240px;
+    float: left;
+    margin-left:-100%;
+	padding-top: 1px;
+}
+
+#footer {
+    height: 100px;
+    width: 100%;
+    background: #04040a;
+    clear: both;
+	text-align: center;
+}
+
